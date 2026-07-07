@@ -1,4 +1,4 @@
-PYTHON FUNCTIONS
+PYTHON FUNCTIONS  //setiing deafaults
 def website(font="tnr",
             bg_color="white",
             font_size=14,font_color="black):
@@ -8,3 +8,18 @@ def website(font="tnr",
   print("font_color",font_color)
 
 website(bg_color="pink")
+
+/////////////////////////////////
+no defaults
+def website(font,
+            bg_color,
+            font_size,font_color):
+   print('font',font)
+  print('bg_color',bg_color)
+  print("font_size",font_size)
+  print("font_color",font_color)
+
+website('TNR','white',11,'black')
+
+//////////////////////////////////////////////////
+GLOBAL(CAN BE ACCSESSED GLOBALLY BUT CANMNOT BE MODIFIED) AND LOCAL VARIABLE(CAN BE ACCESED LOCALLY
