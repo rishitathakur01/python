@@ -1,0 +1,10 @@
+PYTHON FUNCTIONS
+def website(font="tnr",
+            bg_color="white",
+            font_size=14,font_color="black):
+   print('font',font)
+  print('bg_color',bg_color)
+  print("font_size",font_size)
+  print("font_color",font_color)
+
+website(bg_color="pink")
