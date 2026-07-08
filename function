@@ -48,3 +48,22 @@ def example3():
             global x
             x+=1
             print(x)
+
+////////////////////////////////////////////////////////////////////////////////////////
+# name error
+# varaable=55
+# print(variable
+
+#indentation error
+# def func():
+
+# def func2():
+#   print(4)
+
+# unexpected indent
+# def task():
+#   print(1)
+# print(2)
+#   print(3)
+
+
