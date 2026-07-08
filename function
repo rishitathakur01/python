@@ -23,3 +23,28 @@ website('TNR','white',11,'black')
 
 //////////////////////////////////////////////////
 GLOBAL(CAN BE ACCSESSED GLOBALLY BUT CANMNOT BE MODIFIED) AND LOCAL VARIABLE(CAN BE ACCESED LOCALLY
+x=6                  //global
+def example():
+            z=5                  //local
+            print(z)
+
+
+print(z) CANNOT DO THIS BECAUSE IT IS A LOCAL VARIABLE AND CANNOT BE ACCESES OUTSIDE 
+
+def example2():
+            z=7
+            print(z)
+            print(x)
+
+            y=x+1            cannot do x=x+1or x+=1
+            print(y)
+            return y
+x=example2()
+print(x)
+
+
+
+def example3():
+            global x
+            x+=1
+            print(x)
