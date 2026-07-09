@@ -74,3 +74,11 @@ savefile.write(writeme)
 savefile.close()
 Mode "w" → creates the file if it doesn't exist, and overwrites it if it does exist.
 Mode "a" → creates the file if it doesn't exist, and adds (appends) content to the end if it does exist.
+
+appendme='some text'
+savefile=open('exampleWrite.txt','a')
+savefile.write(appendme)
+savefile.close()
+\t=tab
+\s=space
+\n=new
