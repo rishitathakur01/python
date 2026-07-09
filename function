@@ -165,4 +165,18 @@ print(x)
 x=['hi','hey','yes','no']
 x.reverse()
 print(x)
+////////////////////////////////////////////////////////////////////////////////////
+#DICTIONARY-key value pairs,they are mutabale,unordered
+#dict1={"kelly":89,"shelly":78,"jack":90}
+#print(dict1)
 
+#print(dict1["jack"])
+#dict1["jack"]=76
+#print(dict1)
+
+#del dict1["jack"]
+#print(dict1)
+
+dict2={"kelly":[89,90,89],
+       "shelly":[78,67.90],
+       "jack":[77,100,90]}
