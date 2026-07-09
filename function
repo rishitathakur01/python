@@ -66,4 +66,11 @@ def example3():
 # print(2)
 #   print(3)
 
+////////////////////////////////////////////////////////////////////////////////////
+writeme = "example text"
 
+savefile = open("exampleWrite.txt", "w")
+savefile.write(writeme)
+savefile.close()
+Mode "w" → creates the file if it doesn't exist, and overwrites it if it does exist.
+Mode "a" → creates the file if it doesn't exist, and adds (appends) content to the end if it does exist.
