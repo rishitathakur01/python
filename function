@@ -82,3 +82,10 @@ savefile.close()
 \t=tab
 \s=space
 \n=new
+
+readme=open('examplefile.txt','r').read()
+print(readme)
+
+readme2=open('examplefile.txt','r')
+print(readme2.readlines())
+readme2.close()
