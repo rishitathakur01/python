@@ -139,3 +139,30 @@ from statistics import mean,stdev
 print(stdev(ex))
 
 from statistics import *   *prevents us from wwiting all
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+#list=mutable can be chnaged vs tuple=immutable
+#TUPLE
+def ex():
+  return 15,17
+
+a,b=ex()
+print(a,b)
+
+#LIST-we can add combine subgtract modify list
+x=[2,3,4,5,5,5,5,3,4,3,3,2,4,4]
+print(x)
+x.append(12)
+print(x)
+x.insert(5,78)
+print(x)
+x.remove(2)
+print(2)
+print(x.index(78))
+print(x.count(5))
+x.sort()
+print(x)
+
+x=['hi','hey','yes','no']
+x.reverse()
+print(x)
+
