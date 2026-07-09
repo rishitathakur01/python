@@ -89,3 +89,24 @@ print(readme)
 readme2=open('examplefile.txt','r')
 print(readme2.readlines())
 readme2.close()
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+MAKING BASIC CALCULATOR USING CLASS
+
+class calc:
+  def add(x,y):
+    ans=x+y
+    print(ans)
+
+  def sub(x,y):
+    ans=x-y
+    print(ans)
+
+  def mul(x,y):
+    ans=x*y
+    print(ans)
+
+  def div(x,y):
+    ans=x/y
+    print(ans)
