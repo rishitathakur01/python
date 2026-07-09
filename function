@@ -110,3 +110,7 @@ class calc:
   def div(x,y):
     ans=x/y
     print(ans)
+//////////////////////////////////////////////////////////////////////////////////////////////
+INPUT FROM USER
+name=input("what is you school name? ")
+print("hello",name)
