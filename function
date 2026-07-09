@@ -114,3 +114,16 @@ class calc:
 INPUT FROM USER
 name=input("what is you school name? ")
 print("hello",name)
+//////////////////////////////////////////////////////////////////////////////////////////
+import statistics
+ex=[1,2,3,4,5,4,36,37,5,6,36,36]
+x=statistics.mean(ex)
+print(x)
+x=statistics.median(ex)
+print(x)
+x=statistics.mode(ex)
+print(x)
+x=statistics.stdev(ex)
+print(x)
+x=statistics.variance(ex)
+print(x)
