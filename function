@@ -180,3 +180,32 @@ print(x)
 dict2={"kelly":[89,90,89],
        "shelly":[78,67.90],
        "jack":[77,100,90]}
+////////////////////////////////////////////////////////////////////////////////////////////////
+import statistics as s
+
+admin ={'python':'pas12','user':'pass2'}
+
+def main():
+  print("""
+  welcome to grade central
+
+  welcome to grade central
+  [1]-enter grade
+  [2]-remove student
+  [3]-student avaerage grades
+  [4]-exit
+  """)
+  action=input("what would you liek to know today enter a number")
+
+  if action=='1':
+    print('1')
+  elif action=='2':
+    print('2')
+  elif action=='3':
+    print('3')
+  else:print('no valid choice was given ,try again')
+
+login=input('username')
+passw=input('password')
+while True:
+  main()u
