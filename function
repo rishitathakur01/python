@@ -1,4 +1,5 @@
--------------PYTHON FUNCTIONS-----------------  //setiing deafaults
+-------------PYTHON FUNCTIONS-----------------  
+//setiing deafaults
 def website(font="tnr",
             bg_color="white",
             font_size=14,font_color="black):
